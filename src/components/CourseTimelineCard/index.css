@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.list-item {
+  width: 100%;
+}
+
+.card-upper-cont {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+  .card-upper-cont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .time-txt {
+    font-family: 'Roboto';
+    color: #1e293b;
+    font-weight: bold;
+    padding-left: 0px;
+  }
+}
+.title-txt {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #1e293b;
+  font-weight: bold;
+}
+
+.time-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-icon {
+  height: 20px;
+  width: 20px;
+  color: #1e293b;
+  margin-right: 5px;
+}
+
+.time-txt {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: bold;
+}
+
+.desc-txt {
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+
+.tag-cont {
+  background-color: #0967d2;
+  border-radius: 8px;
+  padding: 5px;
+  height: 50px;
+  margin: 3px;
+}
+
+.tag-name {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: bold;
+}
+
+.ul-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}

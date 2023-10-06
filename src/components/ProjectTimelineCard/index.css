@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.project-img {
+  width: 80%;
+  height: 300px;
+}
+@media screen and (max-width: 767px) {
+  .project-img {
+    width: 80%;
+    height: 100px;
+  }
+}
+.card-upper-cont {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.title-txt {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #1e293b;
+  font-weight: bold;
+}
+
+.time-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-icon {
+  height: 20px;
+  width: 20px;
+  color: #1e293b;
+  margin-right: 5px;
+}
+
+.time-txt {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: bold;
+}
+
+.desc-txt {
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+
+.link {
+  text-decoration: none;
+  color: #0967d2;
+}
